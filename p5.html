@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product Color Selector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo|Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/stylefi.css">
+</head>
+
+<body>
+
+  <div class="col info">
+    <h1>Suitcase 5</h1>
+    <p>A pack of three suitcases in different sizes.</p>
+    <p>
+      <span id="price">$100.00</span>
+    </p>
+    <p id="choose-color">Choose a Color:</p>
+    <div id="color-swatches">
+      <div class="swatch selected"></div>
+      <div class="swatch" id="red" onmouseover="rScv()" onmouseout="blScv()"></div>
+      <div class="swatch" id="blue" onmouseover="bluScv()" onmouseout="blScv()"></div>
+      <div class="swatch" id="green" onmouseover="gScv()" onmouseout="blScv()"></div>
+      <div class="swatch" id="silver" onmouseover="sScv()" onmouseout="blScv()"></div>
+      
+    </div>
+  </div>
+
+  <div class="col photo">
+    <img id="product-photo" src="prodpic/sc5bl.jpg">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
