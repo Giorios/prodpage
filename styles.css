@@ -6,4 +6,6 @@ html, body {
 .bg {
   background-color: #A9DEF9;
   min-height: 1000px;
+  font-family: 'Lato', sans-serif;
+
 }
